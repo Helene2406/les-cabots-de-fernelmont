@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Les Cabots de Fernelmont</title>
+
+<style>
+
+:root{
+--bg:#F1EDE2;
+--forest:#1F3B2E;
+--moss:#4C7A5A;
+--gold:#D9A441;
+--white:#ffffff;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:var(--bg);
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:var(--forest);
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+
+.logo{
+max-width:180px;
+margin-bottom:20px;
+}
+
+.hero-contact{
+margin-top:20px;
+font-size:18px;
+}
+
+.hero-contact a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav{
+background:var(--gold);
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav a{
+text-decoration:none;
+color:var(--forest);
+font-weight:bold;
+margin:10px;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+}
+
+h2{
+color:var(--forest);
+margin-bottom:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 0 12px rgba(0,0,0,0.1);
+}
+
+.katia{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+align-items:center;
+}
+
+.katia img{
+max-width:320px;
+width:100%;
+border-radius:20px;
+}
+
+iframe{
+width:100%;
+border:none;
+border-radius:20px;
+}
+
+input,
+textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:10px;
+border:1px solid #ccc;
+}
+
+button{
+background:var(--forest);
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:10px;
+margin-top:15px;
+cursor:pointer;
+}
+
+.btn-contact{
+display:inline-block;
+margin:10px;
+padding:12px 20px;
+background:var(--gold);
+color:var(--forest);
+font-weight:bold;
+border-radius:10px;
+text-decoration:none;
+}
+
+footer{
+background:var(--forest);
+color:white;
+padding:50px 20px;
+margin-top:40px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+footer a{
+color:white;
+}
+
+.copyright{
+border-top:1px solid rgba(255,255,255,0.3);
+margin-top:30px;
+padding-top:20px;
+font-size:13px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="Logo-Cabots.png" alt="Logo Les mont</h1>
+
+<p>
+Club d'éducation canine • Convivialité • Respect • Éducation positive
+</p>
+
+<div class="hero-contact">
+
+📍 Parc Dieudonné - 5300 Andenne
+
+<br><br>
+
+<a href494051796📞 0494 05 17 96</a>
+
+&nbsp; | &nbsp;
+
+<a href="mailto:cabotsdefernelmont@gmail.com">
+✉️ cabotsdefernelmont@gmail.com
+</a>
+
+</div>
+
+<br>
+
+#contact
+Nous contacter
+</a>
+
+<a class="btn-contact"
+href="https://www.facebook.com/cabotsdefernelmont"
+target="_blank">
+Facebook
+</a>
+
+</header>
+
+<nav>
+
+<a href Club</a>
+
+<a href="#katia">Katia</atesActualités</a>
+
+<a hrefAgenda</a>
+
+<a href="#facebook">Facebook</a>
+
+vre d'or</a>
+
+<a href="#contact">Contact</a>
+
+ction id="club">
+
+<h2>Présentation du club</h2>
+
+<div class="card">
+
+<p>
+
+Les Cabots de Fernelmont est un club d'éducation canine accueillant les
+chiens et leurs propriétaires dans une ambiance familiale et conviviale.
+
+</p>
+
+<br>
+
+<p>
+
+Notre philosophie repose sur le respect du chien,
+la motivation, l'apprentissage positif
+et le développement d'une relation harmonieuse
+entre le maître et son compagnon.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="katia">
+
+<h2>Katia</h2>
+
+<div class="card katia">
+
+<img srctia.jpeg
+
+<div>
+
+<p>
+
+Passionnée par le monde canin,
+Katia accompagne les propriétaires
+dans l'éducation et la compréhension de leur chien.
+
+</p>
+
+<br>
+
+<p>
+
+Chaque binôme maître-chien bénéficie d'une approche adaptée,
+progressive et bienveillante afin d'obtenir des résultats durables.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="actualites">
+
+<h2>Actualités du club</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Nouveaux groupes d'éducation.</li>
+
+<li>Balades éducatives.</li>
+
+<li>Journées découvertes.</li>
+
+<li>Activités spéciales et événements du club.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Conseils canins</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Socialisation du chiot.</li>
+
+<li>Travail du rappel.</li>
+
+<li>Comprendre les signaux canins.</li>
+
+<li>Exercices éducatifs du quotidien.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="agenda">
+
+<h2>Agenda</h2>
+
+<div class="card">
+
+<p>
+
+Entraînements, balades, événements et activités des Cabots de Fernelmont.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="facebook">
+
+<h2>Suivez-nous sur Facebook</h2>
+
+<div class="card">
+
+<p>
+
+<a href="https://www.facebook.com/cabotsdefernelmont"
+target="_blank">
+
+👉 Accéder à la page Facebook des Cabots de Fernelmont
+
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Localisation</h2>
+
+<iframe
+height="450"
+src="https://maps.google.com/maps?q=Parc%20Dieudonne%20Andenne&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<section id="livredor">
+
+<h2>Livre d'or</h2>
+
+<div class="card">
+
+<form>
+
+<input type="text" placeholder="Nom">
+
+<input type="email" placeholder="Adresse e-mail">
+
+<textarea rows="6" placeholder="Votre message"></textarea>
+
+<button type="submit">
+Envoyer votre message
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Newsletter</h2>
+
+<div class="card">
+
+<p>
+
+Recevez :
+
+</p>
+
+<br>
+
+<ul>
+
+<li>Les actualités du club</li>
+
+<li>Les conseils canins</li>
+
+<li>L'agenda des activités</li>
+
+</ul>
+
+<br>
+
+<input type="email" placeholder="Votre adresse e-mail">
+
+<button>
+S'inscrire
+</button>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Nous contacter</h2>
+
+<div class="card">
+
+<p>
+
+📞
+
+<a href="tel:+32494051796">
+
+96
+
+</a>
+
+</p>
+
+<br>
+
+<p>
+
+✉️
+
+<a href="mailto:cabotsdefernelmont@gmail.com">
+
+cabotsdefernelmont@gmail.com
+
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+
+<h3>Les Cabots de Fernelmont</h3>
+
+<p>Club d'éducation canine.</p>
+
+<p>Parc Dieudonné</p>
+
+<p>5300 Andenne</p>
+
+<p>Belgique</p>
+
+</div>
+
+<div>
+
+<h3>Informations légales</h3>
+
+<p>Responsable du site : Les Cabots de Fernelmont</p>
+
+<p>Mentions légales</p>
+
+<p>Politique de confidentialité (RGPD)</p>
+
+<p>Gestion des cookies</p>
+
+<p>Conditions d'utilisation</p>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>
+📞
+tel:+32494051796
+0494 05 17 96
+</a>
+</p>
+
+<p>
+✉️
+<a href="mailto:cabotsdefernelmont@gmail.com">
+cabotsdefernelmont@gmail.com
+</a>
+</p>
+
+<p>
+
+<a href="https://www.facebook.com/cabotsdefernelmont" target="_blank">
+
+📘 Facebook
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 Les Cabots de Fernelmont - Tous droits réservés.
+
+<br><br>
+
+Les textes, photographies, logos et contenus de ce site sont protégés par le droit d'auteur.
+
+Toute reproduction est interdite sans autorisation préalable.
+
+</div>
+
+</footer>
+
+</body>
+</html>
