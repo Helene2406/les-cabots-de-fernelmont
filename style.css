@@ -1,1 +1,187 @@
-body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#F6F2EE;color:#333}header.hero{background:linear-gradient(135deg,#234E70,#3A7CA5);color:#fff;text-align:center;padding:60px 20px}.logo{width:120px;height:auto}.container{max-width:1200px;margin:auto;padding:40px 20px}.card{background:#fff;border-radius:18px;padding:25px;box-shadow:0 4px 12px rgba(0,0,0,.1)}nav{background:#C8B6A6;padding:15px;text-align:center}nav a{margin:0 12px;text-decoration:none;color:#234E70;font-weight:bold}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.photo{width:220px;display:block;margin:auto;border-radius:15px}.btn{background:#234E70;color:#fff;padding:12px 20px;border-radius:10px;text-decoration:none}footer{background:#234E70;color:#fff;text-align:center;padding:25px;margin-top:40px}footer a{color:#fff}iframe{width:100%;border:0;border-radius:15px}@media(max-width:768px){nav a{display:block;margin:8px 0}}
+/* ==========================
+   LES CABOTS DE FERNELMONT
+   ========================== */
+
+:root {
+    --bleu: #234E70;
+    --bleu-clair: #3A7CA5;
+    --taupe: #C8B6A6;
+    --fond: #F6F2EE;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: var(--fond);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+.hero {
+    background: linear-gradient(135deg, var(--bleu), var(--bleu-clair));
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.logo {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* MENU */
+
+nav {
+    background: var(--taupe);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--bleu);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.5);
+}
+
+/* CONTENU */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+
+/* PHOTO KATIA */
+
+.photo {
+    width: 220px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* GALERIE */
+
+.gallery {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+/* BOUTONS */
+
+.btn {
+    display: inline-block;
+    background: var(--bleu);
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* GOOGLE MAPS */
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--bleu);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: white;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .photo {
+        width: 180px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .gallery img {
+        height: 200px;
+    }
+}
