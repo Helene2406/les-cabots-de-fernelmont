@@ -1,65 +1,124 @@
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#F1EDE2;
-    color:#333;
+/* ==========================
+   LES CABOTS DE FERNELMONT
+   ========================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1EDE2;
+    color: #333;
+    line-height: 1.6;
 }
 
-header{
-    background:#1F3B2E;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+header {
+    background-color: #1F3B2E;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
 }
 
-.logo{
-    max-width:180px;
+.logo {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 15px;
 }
 
-nav{
-    background:#D9A441;
-    padding:15px;
-    text-align:center;
+header h1 {
+    margin: 10px 0;
 }
 
-nav a{
-    color:#1F3B2E;
-    text-decoration:none;
-    font-weight:bold;
-    margin:0 15px;
+header p {
+    margin: 5px 0;
 }
 
-section{
-    max-width:1000px;
-    margin:auto;
-    padding:40px 20px;
+nav {
+    background-color: #D9A441;
+    padding: 15px;
+    text-align: center;
 }
 
-.card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+nav a {
+    color: #1F3B2E;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
 }
 
-.btn{
-    display:inline-block;
-    background:#D9A441;
-    color:#1F3B2E;
-    padding:10px 20px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
+nav a:hover {
+    text-decoration: underline;
 }
 
-footer{
-    background:#1F3B2E;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
 }
 
-img{
-    max-width:100%;
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.photo {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #D9A441;
+    color: #1F3B2E;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #1F3B2E;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
 }
